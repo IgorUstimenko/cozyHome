@@ -56,7 +56,7 @@ body {
   color: #002033;
 }
 
-.main-nav-li+.main-nav-li {
+.main-nav-li + .main-nav-li {
   padding-left: 3.458em;
 }
 
@@ -68,7 +68,7 @@ body {
   white-space: nowrap;
 }
 
-.main-nav-contacts-li+.main-nav-contacts-li {
+.main-nav-contacts-li + .main-nav-contacts-li {
   padding-left: 2.583em;
   padding-right: 1.75rem;
 }
@@ -418,7 +418,7 @@ body {
   margin-left: 5.416rem;
 }
 
-.footer-contacts-li+.footer-contacts-li {
+.footer-contacts-li + .footer-contacts-li {
   margin-left: 7.916rem;
 }
 
@@ -442,7 +442,7 @@ body {
   margin-right: 1.666rem;
 }
 
-.footer-soc-li+.footer-soc-li {
+.footer-soc-li + .footer-soc-li {
   margin-left: 1.5rem;
 }
 
@@ -474,7 +474,7 @@ body {
   align-items: center;
 }
 
-.footer-link-li+.footer-link-li {
+.footer-link-li + .footer-link-li {
   margin-left: 72px;
 }
 
@@ -486,12 +486,10 @@ body {
   body {
     zoom: 90%;
   }
-
 }
 
 @media (max-device-width: 1400px) {
   body {
     zoom: 80%;
   }
-
 }
