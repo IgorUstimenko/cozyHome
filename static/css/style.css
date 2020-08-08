@@ -16,10 +16,6 @@ body {
   background-color: #fbfdfd;
 }
 
-/* body {
-  zoom: 75%;
-} */
-
 /* navbar */
 .main-page-nav {
   display: flex;
@@ -95,7 +91,7 @@ body {
   /* background-size: 42.833rem 33.25rem; */
   /* background-size: 1028px 798px; */
   background-size: 54.3%;
-  padding-bottom: 12.083rem;
+  padding-bottom: 8rem;
   background-position: 95.5% 100%;
 }
 
@@ -144,7 +140,7 @@ body {
 
 .what-is-yd {
   color: #002033;
-  padding-top: 10.583rem;
+  padding-top: 10.4rem;
   padding-left: 8.833rem;
   font-size: 60px;
   font-weight: 500;
@@ -181,15 +177,20 @@ body {
     #f55d47 -1.7px 1.7px 0, #f55d47 1.7px -1.7px 0;
 }
 
-.special-number-element:hover {
+.static-line-element:hover .special-number-element {
   color: #f55d47;
   cursor: pointer;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
 }
 
 /* Новости */
 .news-part-page {
   background-color: #f6f8f9;
   padding-bottom: 7.5rem;
+  padding-top: 6rem;
 }
 
 .news-link-wrapper {
@@ -208,8 +209,8 @@ body {
 }
 
 .right-arrow {
-  margin-left: 2.1rem;
-  margin-top: 0.2rem;
+  margin-left: 1.6rem;
+  margin-top: 0.25rem;
 }
 
 .news-grid {
@@ -225,7 +226,7 @@ body {
 }
 
 .news-card-text {
-  padding-left: 3.541rem;
+  padding-left: 3rem;
 }
 
 .news-card-date {
@@ -234,7 +235,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 25.2px;
-  padding-top: 2.541rem;
+  padding-top: 2.45rem;
 }
 
 .news-card-title {
@@ -277,12 +278,12 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 25.2px;
-  padding-bottom: 2.791rem;
+  padding-bottom: 2.7rem;
   display: flex;
 }
 
 .news-image-wrapper {
-  padding-top: 1.75rem;
+  padding-right: 2.1rem;
 }
 
 .news-card-1 {
@@ -308,7 +309,7 @@ body {
 .read-more-news-part-page-link-wrapper {
   display: flex;
   justify-content: center;
-  margin-top: 2.541rem;
+  margin-top: 2.6rem;
   margin-left: 0.875rem;
   background-color: #f6f8f9;
 }
@@ -330,10 +331,10 @@ body {
 .send-resume-part-page {
   background-color: #ffffff;
   background-image: url(../img/send-resume/send-resume-bg.svg);
-  background-size: 100%;
+  background-size: 99.9%;
   background-repeat: no-repeat;
-  background-position: 0% 100%;
-  padding-bottom: 6.458rem;
+  padding-bottom: 6.25rem;
+  background-position: 600% 100%;
 }
 
 .resume-part-page-text-wrapper {
@@ -348,6 +349,7 @@ body {
   font-size: 45px;
   line-height: 140%;
   padding-bottom: 1.791rem;
+  color: #002033;
 }
 
 .resume-part-page-descr {
@@ -355,7 +357,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 140%;
+  line-height: 145%;
   margin-bottom: 4.291rem;
 }
 
@@ -392,8 +394,8 @@ body {
 .footer-logo-wrapper::after {
   content: "";
   display: flex;
-  width: 1px;
-  height: 159px;
+  width: 0.0416rem;
+  height: 6.625rem;
   background-color: #002033;
   opacity: 0.1;
   margin-left: 4.583rem;
@@ -410,8 +412,8 @@ body {
 .footer-contacts-ul::after {
   content: "";
   display: flex;
-  width: 1px;
-  height: 159px;
+  width: 0.0416rem;
+  height: 6.625rem;
   background-color: #002033;
   opacity: 0.1;
   margin-left: 5.416rem;
