@@ -1,0 +1,133 @@
+@media (max-device-width: 450px) {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+        zoom: 100%;
+    }
+    .main-nav-ul {
+        display: none;
+    }
+
+    .main-nav-contacts-wrapper {
+        display: none;
+    }
+
+    .main-page-nav {
+        padding-top: 2.8rem;
+        padding-bottom: 3rem;
+    }
+
+    .main-nav-mobile-contacts-wrapper {
+        display: flex;
+    }
+    .main-nav-logo-wrapper {
+        margin-left: 3rem;
+
+    }
+    .main-nav-logo {
+        width: 120px;
+        height: 35.3px;
+    }
+    .main-nav-message-img {
+        width: 58px;
+        height: 41.52px;
+    }
+    .main-nav-mobile-burger {
+        width: 29px;
+        height: 11px;
+        margin-top: 3.8rem;
+    }
+
+    .main-mobile-nav-contacts-ul {
+        display: flex;
+        /* align-items: center; */
+        margin-right: 4.2rem;
+    }
+    .main-mobile-nav-contacts-li + .main-mobile-nav-contacts-li {
+        margin-left: 6rem;
+    }
+
+    /* Основная страница */
+    .main-page {
+        /* height: 100vh; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* background-image: url(../img/main-page/home.svg);
+        background-position: right bottom;
+        background-repeat: no-repeat; */
+        /* background-size: 42.833rem 33.25rem; */
+        background-size: 311px 241px;
+        /* background-size: 100%; */
+        /* padding-bottom: 8rem;
+        background-position: 95.5% 100%; */
+        background-position: 50% 70%;
+        padding-bottom: 8.7rem;
+    }
+    .main-page-h1 {
+        font-size: 30px;
+        line-height: 140%;
+        padding-top: 0rem;
+        margin-top: 23.5rem;
+    }
+    .main-page-h2 {
+        font-size: 16px;
+        line-height: 140%;
+        max-width: 311px;
+        font-weight: normal;
+        margin-top: 3rem;
+    }
+    .main-page-btn {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 140%;
+        margin-top: 67rem;
+        padding: 19px 81px 20px 80px;
+    }
+    .main-page-text {
+        padding-left: 0rem;
+        margin: 0 auto;
+        margin-top: 0rem;
+        padding-top: 0rem;
+    }
+
+    /* Что такое уютный дом */
+    .about-part-page {
+        text-align: center;
+    }
+    .what-is-yd {
+        font-size: 24px;
+        padding-left: 0px;
+        padding-top: 20.5rem;
+    }
+    .static-line-about-part-page {
+        display: block;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-top: 12.3rem;
+    }
+    .number-element {
+        font-size: 50px;
+        line-height: 108.5%;
+        letter-spacing: 0.03em;
+    }
+    .descr-element {
+        font-size: 20px;
+        padding-top: 3rem;
+        line-height: 108.5%;
+    }
+    .special-number-element {
+        text-shadow: #f55d47 1.3px 1.3px 0, #f55d47 -1.3px -1.3px 0,
+          #f55d47 -1.3px 1.3px 0, #f55d47 1.3px -1.3px 0;
+    }
+    .static-line-element + .static-line-element {
+        margin-top: 18rem;
+    }
+      
+
+
+
+
+
+
+}

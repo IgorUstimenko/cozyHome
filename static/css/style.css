@@ -496,6 +496,11 @@ body {
   color: #000000;
 }
 
+/* Скрытия для мобильной версии */
+.main-nav-mobile-contacts-wrapper {
+  display: none;
+}
+
 @media (max-device-width: 1600px) {
   body {
     zoom: 90%;
@@ -507,3 +512,4 @@ body {
     zoom: 80%;
   }
 }
+
