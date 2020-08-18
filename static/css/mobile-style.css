@@ -303,8 +303,7 @@
     /* Страница отправки резюме */
 
     .send-resume-part-page {
-
-        background-image: url(/static/img/mobile-img/mobile-send-resume-page-bg.svg);
+        background-image: url(../img/mobile-img/mobile-send-resume-page-bg.svg);
         background-size: 100%;
         background-repeat: no-repeat;
         padding-bottom: 6.25rem;
