@@ -1,0 +1,133 @@
+body {
+    background-color: #f6f8f9;
+}
+
+.home-content-wrapper {
+    padding-top: 8.9rem;
+    max-width: 62.333rem;
+    margin: 0 auto;
+}
+
+.home-title {
+    font-family: 'Rubik', sans-serif;
+    color: #002033;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 84px;
+    margin-left: 0.35rem;
+}
+
+.home-sqr {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    color: rgba(0, 32, 51, 0.5);
+    margin-left: 0.35rem;
+    margin-top: 0.65rem;
+}
+
+.home-sqr-value {
+    color: #002033;
+}
+
+.home-info-wrapper {
+    margin-left: 0.35rem;
+    margin-top: 2rem;
+}
+
+.home-info-li {
+    background-color: #ffffff;
+    padding: 27px 0px 24px 44px;
+}
+
+.home-info-li+.home-info-li {
+    border-top: 0.04rem solid #dde2e5;
+}
+
+.home-info-link {
+    display: flex;
+    align-items: center;
+}
+
+.home-info-link-text {
+    color: #000000;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    padding-left: 2rem;
+}
+
+/* Документы */
+
+.home-docs-wrapper {
+    margin-left: 0.35rem;
+    margin-top: 3.15rem;
+}
+
+.home-docs-header {
+    font-family: 'Rubik', sans-serif;
+    color: #002033;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 63px;
+}
+
+.home-docs-ul {
+    margin-top: 1.8rem;
+}
+
+.home-docs-li {
+    background-color: #ffffff;
+    padding: 27px 0px 24px 44px;
+}
+
+.home-docs-li+.home-docs-li {
+    border-top: 0.04rem solid #dde2e5;
+}
+
+.home-docs-link {
+    display: flex;
+    align-items: center;
+}
+
+.home-docs-link-text {
+    color: #000000;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    padding-left: 2rem;
+}
+
+.more-info-about-home-wrapper {
+    margin-top: 3.1rem;
+    margin-left: 0.35rem;
+}
+
+.more-info-about-home-header {
+    font-family: 'PT Sans', sans-serif;
+    color: #002033;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+}
+
+.home-info-sources-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 0.95rem;
+    margin-bottom: 2.6rem;
+}
+
+.home-more-info-source-wrapper+.home-more-info-source-wrapper {
+    margin-left: 0.833rem;
+}
+
+.home-more-info-source-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
