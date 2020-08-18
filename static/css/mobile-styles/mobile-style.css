@@ -4,6 +4,7 @@
         overflow-x: hidden;
         zoom: 100%;
     }
+
     .main-nav-ul {
         display: none;
     }
@@ -15,23 +16,28 @@
     .main-page-nav {
         padding-top: 2.8rem;
         padding-bottom: 3rem;
+        z-index: 100;
     }
 
     .main-nav-mobile-contacts-wrapper {
         display: flex;
     }
+
     .main-nav-logo-wrapper {
         margin-left: 3rem;
 
     }
+
     .main-nav-logo {
         width: 120px;
         height: 35.3px;
     }
+
     .main-nav-message-img {
         width: 58px;
         height: 41.52px;
     }
+
     .main-nav-mobile-burger {
         width: 29px;
         height: 11px;
@@ -43,33 +49,28 @@
         /* align-items: center; */
         margin-right: 4.2rem;
     }
-    .main-mobile-nav-contacts-li + .main-mobile-nav-contacts-li {
+
+    .main-mobile-nav-contacts-li+.main-mobile-nav-contacts-li {
         margin-left: 6rem;
     }
 
     /* Основная страница */
     .main-page {
-        /* height: 100vh; */
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* background-image: url(../img/main-page/home.svg);
-        background-position: right bottom;
-        background-repeat: no-repeat; */
-        /* background-size: 42.833rem 33.25rem; */
         background-size: 311px 241px;
-        /* background-size: 100%; */
-        /* padding-bottom: 8rem;
-        background-position: 95.5% 100%; */
         background-position: 50% 70%;
         padding-bottom: 8.7rem;
     }
+
     .main-page-h1 {
         font-size: 30px;
         line-height: 140%;
         padding-top: 0rem;
         margin-top: 23.5rem;
     }
+
     .main-page-h2 {
         font-size: 16px;
         line-height: 140%;
@@ -77,6 +78,7 @@
         font-weight: normal;
         margin-top: 3rem;
     }
+
     .main-page-btn {
         font-weight: 500;
         font-size: 14px;
@@ -84,6 +86,7 @@
         margin-top: 67rem;
         padding: 19px 81px 20px 80px;
     }
+
     .main-page-text {
         padding-left: 0rem;
         margin: 0 auto;
@@ -95,37 +98,365 @@
     .about-part-page {
         text-align: center;
     }
+
     .what-is-yd {
         font-size: 24px;
         padding-left: 0px;
         padding-top: 20.5rem;
     }
+
     .static-line-about-part-page {
         display: block;
         padding-left: 0rem;
         padding-right: 0rem;
-        padding-top: 12.3rem;
+        padding-top: 12.4rem;
     }
+
     .number-element {
         font-size: 50px;
         line-height: 108.5%;
         letter-spacing: 0.03em;
     }
+
     .descr-element {
         font-size: 20px;
         padding-top: 3rem;
         line-height: 108.5%;
     }
+
     .special-number-element {
         text-shadow: #f55d47 1.3px 1.3px 0, #f55d47 -1.3px -1.3px 0,
-          #f55d47 -1.3px 1.3px 0, #f55d47 1.3px -1.3px 0;
+            #f55d47 -1.3px 1.3px 0, #f55d47 1.3px -1.3px 0;
     }
-    .static-line-element + .static-line-element {
-        margin-top: 18rem;
+
+    .static-line-element+.static-line-element {
+        margin-top: 18.3rem;
     }
-      
+
+    /* Отдел новостей */
+    .news-part-page {
+        background-color: #f6f8f9;
+        padding-bottom: 7.5rem;
+        padding-top: 21.35rem;
+    }
+
+    .news-link-wrapper {
+        margin-left: 6.7rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: 2.083rem;
+    }
+
+    .news-link {
+        font-family: "Rubik", sans-serif;
+        color: #002033;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 140%;
+    }
 
 
+    .right-arrow {
+        margin-left: 3.2rem;
+        margin-top: 0.25rem;
+        width: 11px;
+        height: 17px;
+    }
+
+    .news-grid {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 381px;
+        padding-top: 5.3rem;
+    }
+
+    .news-card {
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        position: relative;
+        z-index: 1;
+    }
+
+    .news-card-text {
+        padding-left: 0rem;
+        margin-left: 7rem;
+
+    }
+
+    .news-card-date {
+        font-size: 14px;
+        line-height: 140%;
+        margin-top: 3.5rem;
+    }
+
+    .mobile-news-img-line {
+        display: block;
+        margin-top: 3rem;
+        margin-left: -3rem;
+
+    }
+
+    .news-card-title {
+        font-size: 20px;
+        line-height: 140%;
+        max-width: 286px;
+        margin-top: 1rem;
+    }
+
+
+    .news-card-descr {
+        padding-top: 2.4rem;
+        max-width: 280px;
+        font-size: 14px;
+        line-height: 145%;
+        padding-bottom: 0rem;
+        display: none;
+    }
+
+    .mobile-news-card-descr {
+        display: block;
+    }
+
+
+    .news-card-link-wrapper {
+        display: flex;
+        position: absolute;
+        bottom: 3.7rem;
+        margin-left: -0.2rem;
+    }
+
+    .news-link-arrow {
+        margin-top: -0.2rem;
+        margin-left: 1.9rem;
+    }
+
+    .news-link-arrow img {
+        width: 3.7735rem;
+    }
+
+    .long-right-arrow {
+        margin-left: 0.708rem;
+    }
+
+    .news-card-link {
+        color: #fbfdfd;
+        font-family: "PT Sans", sans-serif;
+        font-size: 14px;
+        line-height: 140%;
+        padding-bottom: 2.7rem;
+        display: flex;
+        font-weight: bold;
+    }
+
+    .news-image-wrapper {
+        padding-right: 2.1rem;
+        display: none;
+    }
+
+    .news-card-3 {
+        background-color: #0085D6;
+    }
+
+    .news-card-3 .news-card-date {
+        color: #fbfdfd;
+    }
+
+    .news-card-3 .news-card-title {
+        color: #fbfdfd;
+    }
+
+    .news-card-3 .news-link-text {
+        color: #fbfdfd;
+    }
+
+    .mobile-news-link-display-none {
+        display: none;
+    }
+
+    .mobile-news-card-link-wrapper {
+        display: block;
+    }
+
+    .read-more-news-part-page-link-wrapper {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 9rem;
+        margin-left: 7rem;
+        background-color: #f6f8f9;
+        padding-bottom: 11.3rem;
+    }
+
+    .read-more-link {
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .read-more-img {
+        margin-top: -0.2rem;
+        margin-left: 1.8rem;
+    }
+
+    .mobile-read-more-arrow {
+        width: 4rem;
+    }
+
+    /* Страница отправки резюме */
+
+    .send-resume-part-page {
+
+        background-image: url(/static/img/mobile-img/mobile-send-resume-page-bg.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding-bottom: 6.25rem;
+        background-position: 100% -11%;
+        background-color: #ffffff;
+
+    }
+
+
+    .resume-part-page-text-wrapper {
+        margin-left: 6.8em;
+        padding-top: 14.7rem;
+    }
+
+    .resume-part-page-header {
+        font-size: 24px;
+        line-height: 145%;
+        padding-bottom: 4.4rem;
+    }
+
+    .resume-part-page-descr {
+        font-size: 16px;
+        line-height: 140%;
+        max-width: 285px;
+    }
+
+    .send-resume-btn {
+        font-size: 14px;
+        line-height: 140%;
+        white-space: nowrap;
+        padding: 19px 90px 20px 89px;
+        margin-top: 89rem;
+        border-radius: 10px;
+        margin-bottom: 4rem;
+    }
+
+    /* Футер */
+    .up-part-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: #f6f8f9;
+        align-items: flex-start;
+        padding-top: 2.5rem;
+        padding-bottom: 1.458rem;
+        max-width: 1920px;
+        overflow: hidden;
+    }
+
+    .footer-logo-wrapper {
+        display: none;
+    }
+
+    .footer-logo-wrapper::after {
+        display: none;
+    }
+
+    .footer-contacts-ul::after {
+        display: none;
+    }
+
+    .footer-contacts-ul {
+        display: block;
+        margin-top: 17.5rem;
+        margin-left: 6.8rem;
+    }
+
+
+    .footer-li-text {
+        font-size: 24px;
+        line-height: 140%;
+        margin-top: 4rem;
+    }
+
+    .footer-contacts-li+.footer-contacts-li {
+        margin-top: 12rem;
+        margin-left: 0rem;
+    }
+
+    .footer-li-icon-wrapper {
+        margin-bottom: 0.625rem;
+    }
+
+    .footer-li-icn-1 {
+        width: 33px;
+        height: 33px;
+    }
+
+    .footer-li-icn-2 {
+        width: 37px;
+        height: 24.67px;
+    }
+
+    .footer-soc-ul-wrapper {
+        width: 83%;
+        padding-bottom: 17.8rem;
+    }
+
+    .footer-soc-ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        margin-right: 0rem;
+        margin-top: 13.5rem;
+        padding-left: 6.8rem;
+    }
+
+    .footer-soc-li-img {
+        width: 11.3rem;
+        height: 11.3rem;
+    }
+
+    /* 54px 4.778rem   */
+
+    /* Нижняя часть футера */
+    .down-part-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-top: 8.9rem;
+        padding-bottom: 3.583rem;
+        padding-right: 0rem;
+        padding-left: 2.7em;
+        opacity: 0.4;
+        font-size: 12px;
+        line-height: 140%;
+    }
+
+    /* 
+    .footer-links-ul-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+*/
+    .footer-cop-yd {
+        margin-bottom: 8.1rem;
+    }
+
+    .footer-links-ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 3rem;
+    }
+
+    .footer-link-li+.footer-link-li {
+        margin-left: 0px;
+        margin-top: 3.8rem;
+    }
 
 
 

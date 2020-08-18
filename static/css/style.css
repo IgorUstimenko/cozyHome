@@ -372,6 +372,7 @@ body {
   font-size: 24px;
   line-height: 145%;
   margin-bottom: 4.291rem;
+  max-width: 515px;
 }
 
 .send-resume-btn {
@@ -501,6 +502,18 @@ body {
   display: none;
 }
 
+.mobile-news-img-line {
+  display: none;
+}
+
+.mobile-news-card-descr {
+  display: none;
+}
+
+.mobile-news-card-link-wrapper {
+  display: none;
+}
+
 @media (max-device-width: 1600px) {
   body {
     zoom: 90%;
@@ -512,4 +525,3 @@ body {
     zoom: 80%;
   }
 }
-
