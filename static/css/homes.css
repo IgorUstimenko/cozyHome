@@ -1,0 +1,133 @@
+body {
+    background-color: #f6f8f9;
+}
+
+
+.homes-content-wrapper {
+    padding-left: 8.8rem;
+    max-width: 62.33rem;
+}
+
+.homes-header {
+    padding-top: 8.95rem;
+}
+
+.our-homes-text {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 140%;
+    color: #002033;
+    font-family: 'Rubik', sans-serif;
+}
+
+.our-homes-descr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    color: #002033;
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 0.65rem;
+}
+
+/* Инпут */
+.homes-input-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 2.5rem;
+    padding: 19px 0px 18px 39px;
+}
+
+.homes-input {
+    opacity: 0.7;
+    color: #002033;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    border: none;
+    background-color: transparent;
+    padding-left: 1.6rem;
+    width: 100%;
+}
+
+/* Сетка домов */
+.homes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(366px, 1fr));
+    row-gap: 0.833rem;
+    column-gap: 0.833rem;
+    grid-auto-rows: minmax(366px, auto);
+    margin-top: 2.5rem;
+}
+
+.home-card {
+    background-color: #ffffff;
+    background-image: url(../img/homes/home-card-img.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.home-card-content {
+    margin-left: 1.83rem;
+}
+
+.home-card-city {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #0085D6;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 1.9rem;
+}
+
+.home-card-adress {
+    font-family: 'Rubik', sans-serif;
+    color: #002033;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 46.2px;
+    margin-top: 0.3rem;
+}
+
+
+.pagination-wrapper {
+    margin-top: 0.7rem;
+}
+
+
+.homes-pagination-pages-text {
+    color: #002033;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.homes-pagination-pages-wrapper {
+    display: flex;
+    margin-top: 0.7rem;
+    margin-bottom: 2.8rem;
+
+}
+
+.homes-pagination-pages-link {
+    color: #002033;
+    font-family: 'Rubik', sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 46.2px;
+}
+
+.homes-pagination-pages-li+.homes-pagination-pages-li {
+    margin-left: 1.3rem;
+}
+
+.active-page {
+    color: #F55D47;
+}

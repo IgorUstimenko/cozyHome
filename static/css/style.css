@@ -514,6 +514,10 @@ body {
   display: none;
 }
 
+.mobile-footer-soc-divider {
+  display: none;
+}
+
 @media (max-device-width: 1600px) {
   body {
     zoom: 90%;
