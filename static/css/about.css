@@ -338,9 +338,19 @@ body {
   transition-duration: 0.5s;
 }
 
-.lb-nav {
-  display: none !important;
+#lz-close {
+  margin-top: 3rem;
+  margin-right: 15rem;
+  width: 48px !important;
+  height: 48px !important;
+  background-color: transparent !important;
+  background-image: url(../ligh_zoom/close.svg) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 0rem;
 }
+
 @media (max-device-width: 1600px) {
   body {
     zoom: 90%;

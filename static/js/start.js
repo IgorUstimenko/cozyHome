@@ -34,13 +34,3 @@ $('.docs-slider-wrapper').on('beforeChange', function (event, slick, currentSlid
     return width;
 
 });
-
-// ЛайтБокс
-
-lightbox.option({
-    'resizeDuration': 200,
-    'wrapAround': true,
-    'showImageNumberLabel': false,
-    'disableScrolling': true,
-    'positionFromTop': 80
-});

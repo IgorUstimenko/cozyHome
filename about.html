@@ -16,8 +16,9 @@
     <link rel="stylesheet" href="./static/slick_slider/slick.css">
     <link rel="stylesheet" href="./static/slick_slider/slick-theme.css">
 
-    <!-- LightBox -->
-    <link rel="stylesheet" href="./static/lightbox/lightbox.css">
+    <link rel="stylesheet" href="./static/ligh_zoom/style.css">
+
+
 </head>
 
 
@@ -248,37 +249,37 @@
 
                     <div class="docs-slider-wrapper">
                         <div class="doc-slide">
-                            <a href="./static/img/about/docs/light-box-doc1.png" data-lightbox="image-1">
+                            <a href="./static/img/about/docs/light-box-doc1.png" class="lightzoom">
                                 <img src="./static/img/about/docs/doc1.png" alt="Документ" class="doc-slide-img">
                             </a>
                         </div>
                         <!-- /.doc-slide -->
                         <div class="doc-slide">
-                            <a href="./static/img/about/docs/light-box-doc2.png" data-lightbox="image-2">
+                            <a href="./static/img/about/docs/light-box-doc2.png" class="lightzoom">
                                 <img src="./static/img/about/docs/doc2.png" alt="Документ" class="doc-slide-img">
                             </a>
                         </div>
                         <!-- /.doc-slide -->
                         <div class="doc-slide">
-                            <a href="./static/img/about/docs/light-box-doc3.png" data-lightbox="image-3">
+                            <a href="./static/img/about/docs/light-box-doc3.png" class="lightzoom">
                                 <img src="./static/img/about/docs/doc3.png" alt="Документ" class="doc-slide-img">
                             </a>
                         </div>
                         <!-- /.doc-slide -->
                         <div class="doc-slide">
-                            <a href="./static/img/about/docs/light-box-doc4.png" data-lightbox="image-4">
+                            <a href="./static/img/about/docs/light-box-doc4.png" class="lightzoom">
                                 <img src="./static/img/about/docs/doc4.png" alt="Документ" class="doc-slide-img">
                             </a>
                         </div>
                         <!-- /.doc-slide -->
                         <div class="doc-slide">
-                            <a href="./static/img/about/docs/light-box-doc5.png" data-lightbox="image-5">
+                            <a href="./static/img/about/docs/light-box-doc5.png" class="lightzoom">
                                 <img src="./static/img/about/docs/doc5.png" alt="Документ" class="doc-slide-img">
                             </a>
                         </div>
                         <!-- /.doc-slide -->
                         <div class="doc-slide doc-slide-6">
-                            <a href="./static/img/about/docs/light-box-doc6.png" data-lightbox="image-6">
+                            <a href="./static/img/about/docs/light-box-doc6.png" class="lightzoom">
                                 <img src="./static/img/about/docs/doc6.png" alt="Документ" class="doc-slide-img">
                             </a>
                         </div>
@@ -413,11 +414,24 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <!-- Slider -->
     <script src="./static/slick_slider/slick.min.js"></script>
-    <!-- LightBox -->
-    <script src="./static/lightbox/lightbox.js"></script>
 
+    <script src="./static/ligh_zoom/lightzoom.js"></script>
 
     <script src="./static/js/start.js"></script>
+
+    <script type="text/javascript">
+        jQuery('.lightzoom').lightzoom({
+                speed: 400, // скорость появления
+                imgPadding: 10, // значение отступа у изображения
+                overlayOpacity: '0.5', // прозрачность фона (от 0 до 1)
+                viewTitle: false, // true, если надо показывать подпись к изобажению
+                isOverlayClickClosing: true, // true, если надо закрывать окно при клике по затемненной области
+                isWindowClickClosing: true, // true, если надо закрывать окно при клике по любой области
+                isEscClosing: true // true, если надо закрывать окно при нажатии на кнопку Esc
+            }
+
+        );
+    </script>
 
 
 </body>
