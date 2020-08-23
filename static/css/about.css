@@ -1,0 +1,275 @@
+/* Навы */
+body {
+  background-color: #f6f8f9;
+}
+
+.main-page-nav {
+  position: static;
+  z-index: 100;
+}
+
+.second-nav {
+  display: flex;
+  align-items: center;
+  padding-top: 1.34rem;
+  padding-bottom: 1.21rem;
+  background-color: #fff;
+  color: #002033;
+  font-family: "Rubik", sans-serif;
+  width: 100%;
+  z-index: 100;
+}
+
+.fixed-navs {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.second-nav-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.6em;
+  width: 100%;
+}
+
+.second-nav-li {
+  align-items: center;
+  white-space: nowrap;
+}
+
+.second-nav-li:hover .second-nav-link {
+  color: #f55d47;
+  cursor: pointer;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.second-nav-li + .second-nav-li {
+  margin-left: 3.458rem;
+}
+
+.second-nav-link {
+  color: #002033;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.orange {
+  color: #f55d47;
+}
+
+/* Верхняя часть страницы */
+.about-us-first-part {
+  background-image: url(../img/about/about-comp-bg.svg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-position: 90.7% 76%;
+  padding-top: 12.95rem;
+  padding-bottom: 3.6rem;
+}
+
+.about-us-text-wrapper {
+  margin-left: 8.833rem;
+}
+
+.about-us-header {
+  font-family: "Rubik", sans-serif;
+  color: #002033;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 84px;
+  letter-spacing: -0.005rem;
+}
+
+.about-us-descr {
+  font-family: "PT Sans", sans-serif;
+  color: #002033;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+  /* max-width: 23.5rem; */
+  letter-spacing: -0.006rem;
+  margin-top: 1.75rem;
+  line-height: 142%;
+}
+
+.about-us-call {
+  font-family: "PT Sans", sans-serif;
+  color: #f55d47;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+  letter-spacing: -0.006rem;
+  margin-top: 1.4rem;
+}
+
+.about-us-gkh-links-wrapper {
+  display: flex;
+  margin-top: 4.85rem;
+}
+
+.gkh-link-wrapper + .gkh-link-wrapper {
+  margin-left: 0.8rem;
+}
+
+/* Наша цель */
+
+.our-target-part {
+  display: flex;
+  background-color: #ffffff;
+  padding-top: 5.35rem;
+  padding-bottom: 4.45rem;
+  align-items: center;
+}
+
+.our-targer-img-wrapper {
+  margin-left: 8rem;
+}
+
+.our-target-img {
+  width: 29rem;
+  max-width: 696px;
+}
+
+.our-target-text-wrapper {
+  margin-left: 3.4rem;
+  margin-top: -0.7rem;
+}
+
+.our-target-text-header {
+  font-family: "Rubik", sans-serif;
+  color: #002033;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 63px;
+}
+
+.orange {
+  color: #f55d47;
+}
+
+.our-target-text-descr {
+  color: #002033;
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 140%;
+  max-width: 605px;
+  margin-top: 1.23rem;
+}
+
+/* Почему мы */
+
+.why-we-part {
+  background-color: #f6f8f9;
+}
+
+.why-we-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 62.333rem;
+  margin: 0 auto;
+}
+
+.why-we-part-header {
+  margin-top: 6.25rem;
+  color: #002033;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 63px;
+  font-family: "Rubik", sans-serif;
+  margin-left: 0.34rem;
+}
+
+.blue-color {
+  color: #0085d6;
+}
+
+.why-we-points-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 2.44rem;
+  margin-left: 0.3rem;
+}
+
+.why-we-point {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  background-color: #ffffff;
+}
+
+.why-we-point + .why-we-point {
+  border-top: 1px #dde2e5 solid;
+}
+
+.why-we-point-img {
+  margin-left: 3.25rem;
+}
+
+.why-we-point-text {
+  font-family: "PT Sans", sans-serif;
+  color: #002033;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 42px;
+  max-width: 773px;
+  margin-left: 4.35rem;
+  margin-top: -0.2rem;
+}
+
+.why-we-point-text-1 {
+  max-width: 900px;
+}
+
+.why-we-point-img-2 {
+  margin-top: 1.02rem;
+}
+
+.why-we-point-text-2 {
+  margin-left: 4.2rem;
+}
+
+.why-we-point-text-3 {
+  margin-left: 5rem;
+}
+
+/* Каждый дом уникален */
+
+.all-homes-origin-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6.27rem;
+  padding-bottom: 4rem;
+}
+.all-homes-origin-text-wrapper {
+  margin-left: 0.35rem;
+}
+
+.all-homes-origin-text-header {
+  color: #002033;
+  font-family: "Rubik", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 63px;
+  margin-top: 1.77rem;
+}
+.all-homes-origin-text-descr {
+  color: #002033;
+  font-family: "PT Sans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  font-family: "PT Sans", sans-serif;
+  max-width: 738px;
+  margin-top: 1.3rem;
+}
+.all-homes-origin-img {
+  max-width: 25.2rem;
+}

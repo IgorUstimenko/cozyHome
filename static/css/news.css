@@ -93,6 +93,7 @@ body {
     grid-column-gap: 0.833rem;
     grid-row-gap: 1.375rem;
     grid-auto-rows: 649px;
+    margin-left: 0rem;
 }
 
 
