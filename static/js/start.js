@@ -1,11 +1,18 @@
+// Слайдер
+
 $('.docs-slider-wrapper').slick({
     slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    pauseOnHover: false,
+    pauseOnFocus: false,
+    touchMove: false,
+    accessibility: false,
+    draggable: false,
 });
 
-
+// Полоска для слайдера
 let progress_line_wrapper = document.getElementById('docs-progress-line');
 let orange_progress_line = document.getElementById('orange-progress-line');
 let width = parseFloat(getComputedStyle(orange_progress_line).width);
@@ -26,4 +33,14 @@ $('.docs-slider-wrapper').on('beforeChange', function (event, slick, currentSlid
 
     return width;
 
+});
+
+// ЛайтБокс
+
+lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true,
+    'showImageNumberLabel': false,
+    'disableScrolling': true,
+    'positionFromTop': 80
 });

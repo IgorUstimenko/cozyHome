@@ -48,7 +48,7 @@ body {
   transition: all 0.25s ease;
 }
 
-.second-nav-li+.second-nav-li {
+.second-nav-li + .second-nav-li {
   margin-left: 3.458rem;
 }
 
@@ -114,7 +114,7 @@ body {
   margin-top: 4.85rem;
 }
 
-.gkh-link-wrapper+.gkh-link-wrapper {
+.gkh-link-wrapper + .gkh-link-wrapper {
   margin-left: 0.8rem;
 }
 
@@ -206,7 +206,7 @@ body {
   background-color: #ffffff;
 }
 
-.why-we-point+.why-we-point {
+.why-we-point + .why-we-point {
   border-top: 1px #dde2e5 solid;
 }
 
@@ -306,14 +306,12 @@ body {
 }
 
 .doc-slide-img {
-
   width: 12.417rem;
 }
 
 .doc-slide-6 {
   margin-top: 4rem;
 }
-
 
 .docs-progress-line {
   max-width: 62.333rem;
@@ -334,12 +332,15 @@ body {
 
 #orange-progress-line {
   height: 100%;
-  background: #F55D47;
+  background: #f55d47;
   width: 0px;
   position: absolute;
   transition-duration: 0.5s;
 }
 
+.lb-nav {
+  display: none !important;
+}
 @media (max-device-width: 1600px) {
   body {
     zoom: 90%;
