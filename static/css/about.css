@@ -1,6 +1,7 @@
 /* Навы */
 body {
   background-color: #f6f8f9;
+
 }
 
 .main-page-nav {
@@ -48,7 +49,7 @@ body {
   transition: all 0.25s ease;
 }
 
-.second-nav-li + .second-nav-li {
+.second-nav-li+.second-nav-li {
   margin-left: 3.458rem;
 }
 
@@ -114,7 +115,7 @@ body {
   margin-top: 4.85rem;
 }
 
-.gkh-link-wrapper + .gkh-link-wrapper {
+.gkh-link-wrapper+.gkh-link-wrapper {
   margin-left: 0.8rem;
 }
 
@@ -206,7 +207,7 @@ body {
   background-color: #ffffff;
 }
 
-.why-we-point + .why-we-point {
+.why-we-point+.why-we-point {
   border-top: 1px #dde2e5 solid;
 }
 
@@ -283,6 +284,7 @@ body {
 .docs-part {
   background-color: #fff;
   padding-bottom: 3.2rem;
+  height: 80vh;
 }
 
 .docs-content-wrapper {

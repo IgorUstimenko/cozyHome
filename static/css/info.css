@@ -1,0 +1,151 @@
+body {
+    background-color: #f6f8f9;
+}
+
+.main-page-nav {
+    position: static;
+    z-index: 100;
+}
+
+.second-nav {
+    display: flex;
+    align-items: center;
+    padding-top: 1.34rem;
+    padding-bottom: 1.21rem;
+    background-color: #fff;
+    color: #002033;
+    font-family: "Rubik", sans-serif;
+    width: 100%;
+    z-index: 100;
+}
+
+.fixed-navs {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.second-nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.6em;
+    width: 100%;
+}
+
+.second-nav-li {
+    align-items: center;
+    white-space: nowrap;
+}
+
+.second-nav-li:hover .second-nav-link {
+    color: #f55d47;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.second-nav-li+.second-nav-li {
+    margin-left: 3.458rem;
+}
+
+.second-nav-link {
+    color: #002033;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.orange {
+    color: #f55d47;
+}
+
+/* Страница информации */
+.info-content-wrapper {
+    display: flex;
+    padding-top: 12.9rem;
+}
+
+.info-names-ul {
+    background-color: #fff;
+    margin-left: 2.5rem;
+    padding-top: 2.05rem;
+}
+
+.info-names-li {
+    max-width: 340px;
+    padding-left: 1.2rem;
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #002033;
+    padding-bottom: 2.23rem;
+    padding-right: 2.1rem;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+/* Правая сторона */
+.info-page-right-side {
+    max-width: 1200px;
+    margin-left: 1.45rem;
+}
+
+.info-page-right-side-header {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 141%;
+    color: #002033;
+    font-family: "Rubik", sans-serif;
+}
+
+.info-page-right-side-docs-ul {
+    margin-top: 1rem;
+}
+
+.info-page-right-side-docs-li {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding-top: 1.1rem;
+    padding-bottom: 1rem;
+}
+
+.info-page-right-side-docs-li-img-wrapper {
+    margin-left: 1.85rem;
+}
+
+.info-page-right-side-docs-li-text {
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #002033;
+    margin-left: 2rem;
+}
+
+.border-bottom-li {
+    border-bottom: 1px #dde2e5 solid;
+}
+
+.info-names-li:hover {
+    color: #f55d47;
+    cursor: pointer;
+}
+
+.select-orange {
+    color: #f55d47;
+}
+
+.up-part-footer {
+    margin-top: 0rem;
+    padding-top: 0rem;
+}
