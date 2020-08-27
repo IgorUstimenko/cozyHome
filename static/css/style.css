@@ -72,6 +72,15 @@ body {
   line-height: 33.6px;
   align-items: center;
   white-space: nowrap;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.main-nav-contacts-li:hover {
+  color: #f55d47;
+  cursor: pointer;
 }
 
 .main-nav-contacts-li+.main-nav-contacts-li {
@@ -138,6 +147,14 @@ body {
   background-color: #f55d47;
   border: none;
   padding: 24px 92px 23px 92px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.main-page-btn:hover {
+  background-color: #E84830;
 }
 
 /* Статистика уютного дома */
