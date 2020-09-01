@@ -30,7 +30,7 @@
     margin-right: 0rem;
   }
 
-  .main-nav-li + .main-nav-li {
+  .main-nav-li+.main-nav-li {
     padding-left: 3.65rem;
   }
 
@@ -42,7 +42,7 @@
     padding-right: 0rem;
   }
 
-  .main-nav-contacts-li + .main-nav-contacts-li {
+  .main-nav-contacts-li+.main-nav-contacts-li {
     padding-left: 3.4em;
     padding-right: 0.3rem;
   }
@@ -288,101 +288,7 @@
     margin-bottom: 3rem;
   }
 
-  /* футер */
-  .up-part-footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: #f6f8f9;
-    align-items: center;
-    padding-top: 4.5rem;
-    padding-bottom: 3.4rem;
-    max-width: 1000px;
-    overflow: hidden;
-  }
 
-  .footer-logo-wrapper {
-    display: none;
-  }
-
-  .footer-logo-wrapper::after {
-    display: none;
-  }
-
-  .footer-contacts-ul-wrapper {
-    margin-left: 3.5rem;
-  }
-
-  .footer-contacts-ul::after {
-    display: flex;
-    height: 8.5rem;
-    opacity: 0.1;
-    margin-left: 5.5rem;
-    padding-left: 0.1rem;
-  }
-
-  .footer-li-text {
-    font-size: 19.4973px;
-    line-height: 140%;
-    margin-top: 1rem;
-  }
-
-  .footer-logo {
-    display: none;
-  }
-
-  .footer-li-icn-1 {
-    width: 15%;
-  }
-
-  .footer-li-icn-2 {
-    width: 15%;
-  }
-
-  .footer-soc-li-img {
-    width: 60%;
-  }
-
-  .footer-contacts-li + .footer-contacts-li {
-    margin-left: 6.4rem;
-  }
-
-  .footer-soc-li + .footer-soc-li {
-    margin-left: 0rem;
-  }
-
-  .footer-soc-ul {
-    margin-right: 0rem;
-  }
-
-  /* Нижняя часть футера */
-  .down-part-footer {
-    align-items: flex-start;
-    padding-top: 3.333rem;
-    padding-bottom: 3.583rem;
-    padding-right: 1.875rem;
-    padding-left: 2.5rem;
-    font-size: 12px;
-    line-height: 140%;
-    height: 12rem;
-  }
-
-  .footer-links-ul-wrapper {
-    display: flex;
-    align-items: center;
-  }
-
-  .footer-links-ul {
-    display: flex;
-    align-items: center;
-  }
-
-  .footer-link-li + .footer-link-li {
-    margin-left: 32px;
-  }
-
-  .footer-link {
-    color: #000000;
-  }
 }
 
 @media (max-device-width: 450px) {
@@ -436,7 +342,7 @@
     margin-right: 4.2rem;
   }
 
-  .main-mobile-nav-contacts-li + .main-mobile-nav-contacts-li {
+  .main-mobile-nav-contacts-li+.main-mobile-nav-contacts-li {
     margin-left: 6rem;
   }
 
@@ -515,7 +421,7 @@
       #f55d47 -1.3px 1.3px 0, #f55d47 1.3px -1.3px 0;
   }
 
-  .static-line-element + .static-line-element {
+  .static-line-element+.static-line-element {
     margin-top: 18.3rem;
   }
 
@@ -719,119 +625,5 @@
     margin-bottom: 4rem;
   }
 
-  /* Футер */
-  .up-part-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: #f6f8f9;
-    align-items: flex-start;
-    padding-top: 2.5rem;
-    padding-bottom: 1.458rem;
-    max-width: 1920px;
-    overflow: hidden;
-  }
 
-  .footer-logo-wrapper {
-    display: none;
-  }
-
-  .footer-logo-wrapper::after {
-    display: none;
-  }
-
-  .footer-contacts-ul::after {
-    display: none;
-  }
-
-  .footer-contacts-ul {
-    display: block;
-    margin-top: 17.5rem;
-    margin-left: 6.8rem;
-  }
-
-  .footer-li-text {
-    font-size: 24px;
-    line-height: 140%;
-    margin-top: 4rem;
-  }
-
-  .footer-contacts-li + .footer-contacts-li {
-    margin-top: 12rem;
-    margin-left: 0rem;
-  }
-
-  .footer-li-icon-wrapper {
-    margin-bottom: 0.625rem;
-  }
-
-  .footer-li-icn-1 {
-    width: 33px;
-    height: 33px;
-  }
-
-  .footer-li-icn-2 {
-    width: 37px;
-    height: 24.67px;
-  }
-
-  .footer-soc-ul-wrapper {
-    width: 83%;
-    padding-bottom: 17.8rem;
-  }
-
-  .footer-soc-ul {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-    margin-right: 0rem;
-    margin-top: 13.5rem;
-    padding-left: 6.8rem;
-  }
-
-  .footer-soc-li-img {
-    width: 11.3rem;
-    height: 11.3rem;
-  }
-
-  /* 54px 4.778rem   */
-
-  /* Нижняя часть футера */
-  .down-part-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding-top: 8.9rem;
-    padding-bottom: 3.583rem;
-    padding-right: 0rem;
-    padding-left: 2.7em;
-    opacity: 0.4;
-    font-size: 12px;
-    line-height: 140%;
-  }
-
-  /* 
-    .footer-links-ul-wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-*/
-  .footer-cop-yd {
-    margin-bottom: 8.1rem;
-  }
-
-  .footer-links-ul {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-bottom: 3rem;
-  }
-
-  .footer-link-li + .footer-link-li {
-    margin-left: 0px;
-    margin-top: 3.8rem;
-  }
 }
