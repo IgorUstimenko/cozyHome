@@ -1,0 +1,82 @@
+@media (max-device-width: 1024px) {  
+    .homes-content-wrapper {
+        padding-left:0rem;
+        max-width: 73.6rem;
+        margin: 0 auto;
+    }
+    
+
+    .homes-header {
+        padding-top: 15.8rem;
+    }
+    
+    .our-homes-text {
+        font-size: 35px;
+        line-height: 140%;
+    }
+
+    .our-homes-descr {
+        font-size: 14px;
+        line-height: 140%;
+        padding-top: 1.55rem;
+    }
+
+    /* Инпут */
+.homes-input-wrapper {
+
+    margin-top: 3.6rem;
+    padding: 18px 0px 18px 33px;
+}
+
+.homes-input {
+    opacity: 0.7;
+    font-size: 18px;
+    line-height: 140%;
+    padding-left: 3.7rem;
+    width: 100%;
+}
+
+
+    .homes-grid {
+        display: grid;
+        grid-template-columns: 349px 349px;
+        row-gap: 0.833rem;
+        column-gap: 0.833rem;
+        grid-auto-rows: 250px;
+        margin-top: 3.4rem;
+        margin-bottom: 3rem;
+    }
+
+
+    .home-card-city {
+        font-size: 10px;
+        line-height: 140%;
+        margin-top: 3.1rem;
+    }
+    .home-card-adress {
+        font-size: 22px;
+        line-height: 140%;
+    }
+
+    .home-card-content {
+        margin-left: 2.9rem;
+    }
+
+    .home-card {
+        background-image: url(../img/homes/home-card-img.svg);
+        background-size: 70%;
+        background-position: center bottom;
+
+    }
+
+.pagination-img {
+    padding-top: 0rem;
+}
+/*     
+
+.pagination-wrapper {
+    margin-top: 4rem;
+} */
+
+
+}
