@@ -1,0 +1,79 @@
+@media (max-device-width: 1024px) {
+
+    .info-content-wrapper {
+        display: none;
+    }
+
+    .mobile-info-content-wrapper {
+        display: block;
+        margin-bottom: -0.5rem;
+    }
+
+    .mobile-info-header {
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 140%;
+        font-family: 'Rubik', sans-serif;
+        margin-left: 3.1rem;
+    }
+
+    .mobile-info-block-wrapper {
+        margin-top: 3.8rem;
+    }
+
+    .mobile-info-doc-name {
+        display: flex;
+        background-color: white;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        padding-top: 29.5px;
+        padding-bottom: 29.5px;
+        border-bottom: 1px solid rgba(0, 32, 51, 0.1);
+    }
+
+    .mobile-info-doc-name-text {
+        font-size: 14px;
+        line-height: 145%;
+        color: #000000;
+        font-family: 'PT Sans', sans-serif;
+        max-width: 52rem;
+        padding-left: 30px;
+    }
+
+    .mobile-info-doc-name-arrow-wrapper {
+        padding-right: 33.2px;
+        padding-top: 0px;
+    }
+
+    /* Стрелка вниз */
+    .mobile-info-doc-name-down-arrow {
+        transform: rotate(90deg);
+    }
+
+
+    .mobile-info-doc-download-wrapper {
+        background-color: transparent;
+        display: flex;
+        border-bottom: 1px solid rgba(0, 32, 51, 0.1);
+    }
+
+    .mobile-info-doc-pgf-icn-wrapper {
+        padding-left: 30px;
+        padding-top: 26px;
+    }
+
+    .mobile-info-doc-text {
+        padding-bottom: 30px;
+        padding-top: 30px;
+        font-size: 14px;
+        line-height: 140%;
+        max-width: 52rem;
+        font-family: 'PT Sans', sans-serif;
+        padding-left: 28px;
+    }
+
+
+
+
+}

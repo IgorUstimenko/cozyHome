@@ -1,23 +1,27 @@
-@media (max-device-width: 1024px) { 
+@media (max-device-width: 1024px) {
 
     .home-content-wrapper {
-        padding-top:16rem;
+        padding-top: 16rem;
         max-width: 74.5rem;
     }
+
     .home-title {
         font-size: 35px;
-line-height: 140%;
+        line-height: 140%;
 
     }
+
     .home-sqr {
         font-size: 14px;
-line-height: 140%;
-margin-top: 1.2rem;
+        line-height: 140%;
+        margin-top: 1.2rem;
     }
+
     .home-info-link-text {
         font-size: 14px;
-line-height: 140%;
+        line-height: 140%;
     }
+
     .pdf-icn {
         width: 20px;
         height: 28.67px;
@@ -25,49 +29,73 @@ line-height: 140%;
 
     .more-info-about-home-header {
         font-size: 25px;
-line-height: 140%;
+        line-height: 140%;
     }
 
     .home-docs-wrapper {
         margin-top: 6rem;
     }
-    
+
     .home-docs-header {
         font-size: 25px;
-line-height: 140%;
+        line-height: 140%;
     }
 
     .home-docs-ul {
         margin-top: 3.5rem;
     }
+
     .more-info-about-home-wrapper {
         margin-top: 6rem;
     }
-    
+
     .home-info-wrapper {
         margin-top: 3.8rem;
     }
+
     .home-info-li {
-        
+
         padding: 30px 0px 30px 30px;
     }
+
     .home-info-link-text {
         padding-left: 3rem;
         max-width: 60rem;
     }
+
     .home-more-info-source-img {
         width: 80%;
         height: 80%;
         object-fit: cover;
     }
-    
+
     .home-info-sources-wrapper {
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
+
     .home-more-info-source-wrapper+.home-more-info-source-wrapper {
         margin-left: -4rem;
     }
-    
+
+    .home-docs-link-text {
+        font-size: 14px;
+        line-height: 140%;
+        padding-left: 3rem;
+    }
+
+    .home-docs-li {
+        padding: 30px 0px 30px 30px;
+    }
+
+
+    .more-info-about-home-header {
+        font-size: 25px;
+        line-height: 140%;
+        font-weight: 500;
+        font-family: 'Rubik', sans-serif;
+    }
+
+
 
 }

@@ -1,0 +1,67 @@
+/* font-family: 'PT Sans', sans-serif; */
+/* font-family: 'Rubik', sans-serif; */
+
+.article-content-wrapper {
+    max-width: 62.5rem;
+    margin: 0 auto;
+}
+
+
+
+.article-title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 140%;
+    color: #002033;
+}
+
+.article-descr {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    color: #002033;
+    opacity: 0.8;
+    max-width: 733px;
+    margin-top: 1.65rem;
+    letter-spacing: -0.005rem;
+}
+
+.article-img-wrapper {
+    margin-top: 3.8rem;
+}
+
+.article-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.article-main-paragraph-wrapper {
+    margin-top: 3.6rem;
+}
+
+.article-paragraph-title {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 140%;
+    color: #002033;
+}
+
+.article-paragraph-text {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 145%;
+    color: #002033;
+    opacity: 0.8;
+    margin-top: 1.8rem;
+    letter-spacing: -0.005rem;
+    margin-bottom: -0.3rem;
+}

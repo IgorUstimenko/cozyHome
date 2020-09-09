@@ -149,3 +149,7 @@ body {
     margin-top: 0rem;
     padding-top: 0rem;
 }
+
+.mobile-info-content-wrapper {
+    display: none;
+}

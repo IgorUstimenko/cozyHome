@@ -24,7 +24,6 @@
         padding-left: 0rem;
     }
 
-
     .mobile-hidden {
         display: none;
     }
@@ -37,6 +36,7 @@
     .news-cards-grid {
         margin-top: 3.8rem;
         grid-row-gap: 1.6rem;
+        margin-bottom: -1rem;
     }
 
 
