@@ -564,6 +564,17 @@ body {
   display: none;
 }
 
+.mobile-burger-menu {
+  display: none;
+}
+
+
+.blocker {
+  display: none;
+}
+
+
+
 @media (max-device-width: 1600px) {
   body {
     zoom: 90%;
