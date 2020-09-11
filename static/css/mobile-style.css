@@ -287,8 +287,6 @@
     border-radius: 11px;
     margin-bottom: 3rem;
   }
-
-
 }
 
 @media (max-device-width: 450px) {
@@ -317,7 +315,7 @@
   }
 
   .main-nav-logo-wrapper {
-    margin-left: 3rem;
+    margin-left: 0rem;
   }
 
   .main-nav-logo {
@@ -353,7 +351,7 @@
     justify-content: center;
     background-size: 311px 241px;
     background-position: 50% 70%;
-    padding-bottom: 8.7rem;
+    padding-bottom: 9rem;
   }
 
   .main-page-h1 {
@@ -368,15 +366,15 @@
     line-height: 140%;
     max-width: 311px;
     font-weight: normal;
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 
   .main-page-btn {
     font-weight: 500;
     font-size: 14px;
     line-height: 140%;
-    margin-top: 67rem;
-    padding: 19px 81px 20px 80px;
+    margin-top: 63rem;
+    padding: 19px 91px 20px 90px;
   }
 
   .main-page-text {
@@ -394,14 +392,14 @@
   .what-is-yd {
     font-size: 24px;
     padding-left: 0px;
-    padding-top: 20.5rem;
+    padding-top: 25.5rem;
   }
 
   .static-line-about-part-page {
     display: block;
     padding-left: 0rem;
     padding-right: 0rem;
-    padding-top: 12.4rem;
+    padding-top: 18rem;
   }
 
   .number-element {
@@ -428,12 +426,12 @@
   /* Отдел новостей */
   .news-part-page {
     background-color: #f6f8f9;
-    padding-bottom: 7.5rem;
+    padding-bottom: 2.8rem;
     padding-top: 21.35rem;
   }
 
   .news-link-wrapper {
-    margin-left: 6.7rem;
+    margin-left: 4.5rem;
     display: flex;
     align-items: center;
     margin-bottom: 2.083rem;
@@ -454,10 +452,15 @@
     height: 17px;
   }
 
-  .news-grid {
-    grid-template-columns: 1fr;
-    grid-auto-rows: 381px;
-    padding-top: 5.3rem;
+  .news-cards-grid {
+    display: grid;
+    grid-template-columns: 331px;
+    grid-column-gap: 0.833rem;
+    grid-row-gap: 4rem;
+    grid-auto-rows: 378px;
+    justify-content: center;
+    margin-left: 0.9rem;
+    margin-top: 4rem;
   }
 
   .news-card {
@@ -468,107 +471,64 @@
     z-index: 1;
   }
 
-  .news-card-text {
-    padding-left: 0rem;
-    margin-left: 7rem;
+  .card-header {
+    height: 25rem;
   }
 
-  .news-card-date {
-    font-size: 14px;
-    line-height: 140%;
-    margin-top: 3.5rem;
+  .card-content {
+    position: absolute;
+    top: 30rem;
+    left: 6rem;
   }
 
-  .mobile-news-img-line {
-    display: block;
-    margin-top: 3rem;
-    margin-left: -3rem;
-  }
-
-  .news-card-title {
+  .card-title {
+    max-width: 60rem;
     font-size: 20px;
     line-height: 140%;
-    max-width: 286px;
-    margin-top: 1rem;
   }
 
-  .news-card-descr {
-    padding-top: 2.4rem;
-    max-width: 280px;
+  .card-descr {
     font-size: 14px;
     line-height: 145%;
-    padding-bottom: 0rem;
-    display: none;
+    color: #002033;
+    opacity: 0.8;
+    max-width: 60rem;
+    margin-top: 2.5rem;
   }
 
-  .mobile-news-card-descr {
-    display: block;
+  .card-footer {
+    bottom: 2.7rem;
   }
 
-  .news-card-link-wrapper {
-    display: flex;
-    position: absolute;
-    bottom: 3.7rem;
-    margin-left: -0.2rem;
-  }
-
-  .news-link-arrow {
-    margin-top: -0.2rem;
-    margin-left: 1.9rem;
-  }
-
-  .news-link-arrow img {
-    width: 3.7735rem;
-  }
-
-  .long-right-arrow {
-    margin-left: 0.708rem;
+  .card-footer-date-and-link {
+    width: 60rem;
+    margin-bottom: 1.1rem;
   }
 
   .news-card-link {
-    color: #fbfdfd;
-    font-family: "PT Sans", sans-serif;
+    padding-left: 6.5rem;
+  }
+
+  .card-date {
     font-size: 14px;
     line-height: 140%;
-    padding-bottom: 2.7rem;
-    display: flex;
-    font-weight: bold;
+    padding-right: 0rem;
   }
 
-  .news-image-wrapper {
-    padding-right: 2.1rem;
-    display: none;
+  .footer-line-wrapper {
+    text-align: center;
+    margin-bottom: 2.9rem;
   }
 
-  .news-card-3 {
-    background-color: #0085d6;
-  }
-
-  .news-card-3 .news-card-date {
-    color: #fbfdfd;
-  }
-
-  .news-card-3 .news-card-title {
-    color: #fbfdfd;
-  }
-
-  .news-card-3 .news-link-text {
-    color: #fbfdfd;
-  }
-
-  .mobile-news-link-display-none {
-    display: none;
-  }
-
-  .mobile-news-card-link-wrapper {
-    display: block;
+  .footer-line {
+    width: 330px;
   }
 
   .read-more-news-part-page-link-wrapper {
     display: flex;
     justify-content: flex-start;
-    margin-top: 9rem;
-    margin-left: 7rem;
+    margin-top: 8.8rem;
+    margin-left: 4.3rem;
     background-color: #f6f8f9;
     padding-bottom: 11.3rem;
   }
@@ -594,12 +554,12 @@
     background-size: 100%;
     background-repeat: no-repeat;
     padding-bottom: 6.25rem;
-    background-position: 100% -11%;
+    background-position: 50% -11%;
     background-color: #ffffff;
   }
 
   .resume-part-page-text-wrapper {
-    margin-left: 6.8em;
+    margin-left: 4.9em;
     padding-top: 14.7rem;
   }
 
@@ -619,11 +579,9 @@
     font-size: 14px;
     line-height: 140%;
     white-space: nowrap;
-    padding: 19px 90px 20px 89px;
-    margin-top: 89rem;
+    padding: 19px 100px 20px 99px;
+    margin-top: 88rem;
     border-radius: 10px;
     margin-bottom: 4rem;
   }
-
-
 }

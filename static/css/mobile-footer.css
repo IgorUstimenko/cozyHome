@@ -129,7 +129,7 @@
     .footer-contacts-ul {
         display: block;
         margin-top: 17.5rem;
-        margin-left: 6.8rem;
+        margin-left: 5rem;
     }
 
     .footer-li-text {
@@ -158,7 +158,7 @@
     }
 
     .footer-soc-ul-wrapper {
-        width: 83%;
+        width: 87%;
         padding-bottom: 17.8rem;
     }
 
@@ -169,15 +169,13 @@
         align-items: center;
         margin-right: 0rem;
         margin-top: 13.5rem;
-        padding-left: 6.8rem;
+        padding-left: 5rem;
     }
 
     .footer-soc-li-img {
         width: 11.3rem;
         height: 11.3rem;
     }
-
-    /* 54px 4.778rem   */
 
     /* Нижняя часть футера */
     .down-part-footer {
@@ -210,4 +208,10 @@
         margin-left: 0px;
         margin-top: 3.8rem;
     }
+
+    .footer-contacts-ul-wrapper {
+        margin-left: 0rem;
+    }
+
+
 }
