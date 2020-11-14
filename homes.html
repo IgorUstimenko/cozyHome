@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="./static/css/mobile-style.css">
     <link rel="stylesheet" href="./static/css/homes-mobile.css">
 
+    <!-- jQuery Modal -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
 </head>
 
 <body>
@@ -46,7 +49,7 @@
                     </li>
                     <!-- /.main-nav-li -->
                     <li class="main-nav-li">
-                        <a href="#!" class="main-nav-link">
+                        <a href="services.html" class="main-nav-link">
                             Услуги
                         </a>
                         <!-- /.main-nav-link -->
@@ -82,13 +85,184 @@
                     </li>
                     <!-- /.main-mobile-nav-contacts-li -->
                     <li class="main-mobile-nav-contacts-li">
-                        <img src="./static/img/mobile-img/mobile-burger.svg" alt="Открыть бургер"
-                            class="main-nav-mobile-burger">
+                        <a href="#burger" rel="modal:open">
+                            <img src="./static/img/mobile-img/mobile-burger.svg" alt="Открыть бургер"
+                                class="main-nav-mobile-burger">
+                        </a>
                     </li>
                     <!-- /.main-mobile-nav-contacts-li -->
                 </ul>
             </div>
             <!-- /.main-nav-mobile-contacts-wrapper -->
+            <div class="mobile-burger-menu modal" id="burger">
+                <nav class="main-page-nav">
+                    <div class="main-nav-logo-wrapper">
+                        <img src="./static/img/header/main-logo.svg" alt="Main logo" class="main-nav-logo">
+                    </div>
+                    <!-- /.main-logo-wrapper -->
+                    <div class="main-nav-ul-wrapper">
+                        <ul class="main-nav-ul">
+                            <li class="main-nav-li">
+                                <a href="about.html" class="main-nav-link">
+                                    Компания
+                                </a>
+                                <!-- /.main-nav-link -->
+                            </li>
+                            <!-- /.main-nav-li -->
+                            <li class="main-nav-li">
+                                <a href="homes.html" class="main-nav-link">
+                                    Объекты
+                                </a>
+                                <!-- /.main-nav-link -->
+                            </li>
+                            <!-- /.main-nav-li -->
+                            <li class="main-nav-li">
+                                <a href="#!" class="main-nav-link">
+                                    Услуги
+                                </a>
+                                <!-- /.main-nav-link -->
+                            </li>
+                            <!-- /.main-nav-li -->
+                            <li class="main-nav-li">
+                                <a href="#!" class="main-nav-link">
+                                    Контакты
+                                </a>
+                                <!-- /.main-nav-link -->
+                            </li>
+                            <!-- /.main-nav-li -->
+                        </ul>
+                    </div>
+                    <!-- /.main-nav-ul-wrapper -->
+                    <div class="main-nav-contacts-wrapper">
+                        <ul class="main-nav-contacts-ul">
+                            <li class="main-nav-contacts-li main-nav-contacts-li-phone">
+                                8 8634 431-008
+                            </li>
+                            <!-- /.main-nav-contacts-li -->
+                            <li class="main-nav-contacts-li">
+                                <img src="./static/img/header/main-message.svg" alt="Message img"
+                                    class="main-nav-message-img">
+                            </li>
+                            <!-- /.main-nav-contacts-li -->
+                        </ul>
+                    </div>
+                    <!-- /.main-nav-contacts-wrapper -->
+                    <div class="main-nav-mobile-contacts-wrapper">
+                        <ul class="main-mobile-nav-contacts-ul">
+                            <li class="main-mobile-nav-contacts-li">
+                                <img src="./static/img/header/main-message.svg" alt="Message img"
+                                    class="main-nav-message-img">
+                            </li>
+                            <!-- /.main-mobile-nav-contacts-li -->
+
+                            <li class="main-mobile-nav-contacts-li">
+                                <a href="#burger" rel="modal:close">
+                                    <img src="./static/img/mobile-img/mobile-close-burger-menu.svg" alt="Открыть бургер"
+                                        class="main-nav-mobile-burger mobile-close-burger-menu">
+                                </a>
+                            </li>
+                            <!-- /.main-mobile-nav-contacts-li -->
+                        </ul>
+                    </div>
+                    <!-- /.main-nav-mobile-contacts-wrapper -->
+                </nav>
+
+                <div class="main-part-mobile-burger-menu">
+                    <ul class="mobile-burger-menu-ul">
+                        <li class="mobile-burger-menu-li">
+                            <a href="index.html" class="mobile-burger-menu-li-link">
+                                Главная
+                            </a> <!-- /.mobile-burger-menu-li-link -->
+                        </li>
+                        <!-- /.mobile-burger-menu-li -->
+                        <li class="mobile-burger-menu-li">
+                            <a href="about.html" class="mobile-burger-menu-li-link">
+                                Компания
+                            </a> <!-- /.mobile-burger-menu-li-link -->
+                        </li>
+                        <!-- /.mobile-burger-menu-li -->
+                        <li class="mobile-burger-menu-li">
+                            <a href="homes.html" class="mobile-burger-menu-li-link active-link">
+                                Объекты
+                            </a> <!-- /.mobile-burger-menu-li-link -->
+                        </li>
+                        <!-- /.mobile-burger-menu-li -->
+                        <li class="mobile-burger-menu-li">
+                            <a href="#!" class="mobile-burger-menu-li-link">
+                                Услуги
+                            </a> <!-- /.mobile-burger-menu-li-link -->
+                        </li>
+                        <!-- /.mobile-burger-menu-li -->
+                        <li class="mobile-burger-menu-li">
+                            <a href="#!" class="mobile-burger-menu-li-link">
+                                Контакты
+                            </a> <!-- /.mobile-burger-menu-li-link -->
+                        </li>
+                        <!-- /.mobile-burger-menu-li -->
+                    </ul>
+                    <!-- /.mobile-burger-menu-ul -->
+                </div>
+                <!-- /.main-part-mobile-burger-menu -->
+                <div class="footer-mobile-burger-menu">
+                    <div class="burger-menu-footer-element">
+                        <div class="burger-menu-footer-img-wrapper">
+                            <img src="./static/img/mobile-img/mobile_icn_phone.svg" alt="Телефон"
+                                class="burger-menu-footer-img">
+                        </div>
+                        <!-- /.burger-menu-footer-img-wrapper -->
+                        <div class="burger-menu-footer-text">
+                            8 8634 431-008
+                        </div>
+                        <!-- /.burger-menu-footer-text -->
+                    </div>
+                    <!-- /.burger-menu-footer-element -->
+                    <div class="burger-menu-footer-element">
+                        <div class="burger-menu-footer-img-wrapper">
+                            <img src="./static/img/mobile-img/mobile_icn_mail.svg" alt="Телефон"
+                                class="burger-menu-footer-img">
+                        </div>
+                        <!-- /.burger-menu-footer-img-wrapper -->
+                        <div class="burger-menu-footer-text burger-menu-footer-text-email">
+                            info@uutniydom.ru
+                        </div>
+                        <!-- /.burger-menu-footer-text -->
+                    </div>
+                    <!-- /.burger-menu-footer-element -->
+                </div>
+                <!-- /.footer-mobile-burger-menu -->
+
+                <div class="soc-footer-mobile-burger-menu">
+                    <div class="soc-footer-mobile-burger-menu-img-wrapper ">
+                        <img src="./static/img/footer/footer-inst-icn.svg" alt="Инстаграм"
+                            class="soc-footer-mobile-burger-menu-img soc-footer-mobile-burger-menu-img-icn">
+                    </div>
+                    <!-- /.soc-footer-mobile-burger-menu-img-wrapper -->
+                    <div class="soc-footer-mobile-burger-menu-img-wrapper">
+                        <img src="./static/img/mobile-img/mobile-burger-menu-footer-divider.svg" alt="Разделитель"
+                            class="soc-footer-mobile-burger-menu-img">
+                    </div>
+                    <!-- /.soc-footer-mobile-burger-menu-img-wrapper -->
+                    <div class="soc-footer-mobile-burger-menu-img-wrapper">
+                        <img src="./static/img/footer/footer-tg-icn.svg" alt="Телеграм"
+                            class="soc-footer-mobile-burger-menu-img soc-footer-mobile-burger-menu-img-icn">
+                    </div>
+                    <!-- /.soc-footer-mobile-burger-menu-img-wrapper -->
+                    <div class="soc-footer-mobile-burger-menu-img-wrapper">
+                        <img src="./static/img/mobile-img/mobile-burger-menu-footer-divider.svg" alt="Разделитель"
+                            class="soc-footer-mobile-burger-menu-img">
+                    </div>
+                    <!-- /.soc-footer-mobile-burger-menu-img-wrapper -->
+                    <div class="soc-footer-mobile-burger-menu-img-wrapper">
+                        <img src="./static/img/footer/footer-vk-icn.svg" alt="Вконтакте"
+                            class="soc-footer-mobile-burger-menu-img soc-footer-mobile-burger-menu-img-icn">
+                    </div>
+                    <!-- /.soc-footer-mobile-burger-menu-img-wrapper -->
+
+                </div>
+                <!-- /.soc-footer-mobile-burger-menu -->
+
+            </div>
+            <!-- /.mobile-burger-menu -->
 
         </nav>
         <div class="all-content-wrapper">
@@ -487,6 +661,12 @@
 
     </div>
     <!-- desctop-main-page-wrapper -->
+
+    <!-- jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 </body>
 
 </html>

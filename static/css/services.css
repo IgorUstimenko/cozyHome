@@ -1,0 +1,142 @@
+.first-part-services-page {
+    padding-top: 0rem;
+    background-image: url(../img/services/first-part-bg.png);
+    background-position: 102% 100%;
+    background-repeat: no-repeat;
+    padding-left: 6.3rem;
+    padding-bottom: 3.6rem;
+}
+
+.first-part-services-header {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 140%;
+    color: #002033;
+    padding-top: 9rem;
+    letter-spacing: -0.02rem;
+}
+
+.first-part-services-descr {
+    font-size: 24px;
+    line-height: 140%;
+    font-family: "PT Sans", sans-serif;
+    color: #002033;
+    max-width: 590px;
+    margin-top: 1.7rem;
+    margin-bottom: 4.7rem;
+}
+
+.first-part-services-btn {
+    margin-bottom: 7.6rem;
+}
+
+.scroll-down-first-part-services-wrapper {
+    text-align: center;
+    width: 6.5rem;
+    margin-left: -0.1rem;
+}
+
+.scroll-down-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color: #0085d6;
+    font-family: "Rubik", sans-serif;
+    white-space: nowrap;
+    margin-top: 0.3rem;
+}
+
+/* Блоки услуг */
+.our-services-part-page {
+    padding-top: 8.9rem;
+    padding-left: 8rem;
+}
+
+.service-block {
+    display: flex;
+    margin-bottom: 6.1rem;
+}
+
+.service-block-text-wrapper {
+    margin-left: 3.5rem;
+    margin-top: 2.5rem;
+}
+
+.service-block-text-header {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 140%;
+    font-family: 'Rubik', sans-serif;
+    color: #002033;
+    letter-spacing: -0.004rem;
+}
+
+.service-block-text-descr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    font-family: 'PT Sans', sans-serif;
+    color: #002033;
+    margin-top: 1.2rem;
+}
+
+.left-service-block-text-wrapper {
+    margin-left: 0.8rem;
+    margin-top: 1.2rem;
+    margin-right: 4.2rem;
+}
+
+.second-service-block {
+    margin-bottom: 6.2rem;
+}
+
+/* Документы */
+
+.docs-part-page {
+    margin-left: 8.83rem;
+    margin-right: 8rem;
+    margin-top: 9.01rem;
+}
+
+.docs-part-page-header {
+    color: #002033;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 140%;
+    font-family: 'Rubik', sans-serif;
+}
+
+.info-page-right-side-docs-ul {
+    margin-top: 1.9rem;
+    margin-bottom: 3.3rem;
+}
+
+.info-page-right-side-docs-li {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding-top: 1.1rem;
+    padding-bottom: 1rem;
+}
+
+.info-page-right-side-docs-li-img-wrapper {
+    margin-left: 1.85rem;
+}
+
+.info-page-right-side-docs-li-text {
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #002033;
+    margin-left: 2rem;
+}
+
+.border-bottom-li {
+    border-bottom: 1px #dde2e5 solid;
+}

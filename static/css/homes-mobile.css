@@ -99,3 +99,104 @@
 
 
 }
+
+@media (max-device-width: 450px) {
+
+
+    .homes-content-wrapper {
+        max-width: 70.5rem;
+        margin: 0 auto;
+    }
+
+    .homes-header {
+        padding-top: 23.7rem;
+    }
+
+    .our-homes-text {
+        font-size: 30px;
+        line-height: 140%;
+    }
+
+    .our-homes-descr {
+        font-size: 14px;
+        line-height: 140%;
+        margin-top: 1rem;
+    }
+
+    /* Инпут */
+    .homes-input-wrapper {
+        display: flex;
+        align-items: center;
+        background-color: #ffffff;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        margin-top: 4.8rem;
+        padding: 13px 0px 13px 15px;
+    }
+
+    .homes-input {
+        opacity: 0.7;
+        font-size: 14px;
+        line-height: 140%;
+        padding-left: 1.7rem;
+        width: 100%;
+    }
+
+    .loupe-img {
+        width: 67%;
+    }
+
+    .homes-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(70.5rem, 1fr));
+        row-gap: 3.3rem;
+        column-gap: 0.833rem;
+        grid-auto-rows: minmax(250px, auto);
+        margin-top: 5rem;
+    }
+
+    .home-card-content {
+        margin-left: 6.2rem;
+    }
+
+    .home-card-city {
+        margin-top: 6.1rem;
+        font-size: 10px;
+        line-height: 140%;
+    }
+
+    .home-card-adress {
+        font-size: 22px;
+        line-height: 140%;
+        margin-top: 0.9rem;
+    }
+
+    .homes-pagination-pages-text {
+        font-size: 10px;
+        line-height: 140%;
+    }
+
+    .homes-pagination-pages-link {
+        font-size: 25px;
+        line-height: 140%;
+    }
+
+    .pagination-wrapper {
+        padding-top: 8rem;
+    }
+
+    .homes-pagination-pages-wrapper {
+        margin-top: 3rem;
+        margin-bottom: -0.5rem;
+    }
+
+    .homes-pagination-pages-text {
+        margin-top: 5rem;
+    }
+
+    .homes-pagination-pages-li+.homes-pagination-pages-li {
+        margin-left: 7.4rem;
+    }
+
+
+
+}

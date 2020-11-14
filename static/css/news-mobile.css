@@ -39,10 +39,39 @@
         margin-bottom: -1rem;
     }
 
+}
 
+@media (max-device-width: 450px) {
 
+    .second-nav {
+        display: none;
+    }
 
+    .modal a.close-modal {
+        display: none !important;
+    }
 
+    .mobile-burger-menu-ul {
+        text-align: center;
+        margin-top: 15em;
+    }
 
+    .mobile-hidden {
+        display: block;
+        margin-left: 2rem;
+    }
 
+    .news-header {
+        font-size: 30px;
+        line-height: 140%;
+        max-width: initial;
+        display: flex;
+        margin-top: 9.7rem;
+    }
+
+    .news-cards-grid {
+        grid-row-gap: 3rem;
+        margin-top: 4.9rem;
+        margin-bottom: -2.8rem;
+    }
 }
